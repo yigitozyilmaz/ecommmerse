@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest",
+    "category": "men's clothing",
+    "image": "https://s3-alpha-sig.figma.com/img/42f3/d822/875ca0805473138d08ffde0aef04ccbe?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iqECd9cjJi2dYaLJU-QYWpZuqBHd39kGoLnaQCmIIBKWLfYpRb5AtUXrbqM1kEv6YKIMfR-p3eE0D42kUCc4dEoWM6sXd8gI6f199RMf7Lnq-BvIgufD7vjcQsrePmJuLpi1UJnO9-hwN4mcLOHFUr3zgafnGMyIp-uYXX3ArDzQL7vvkV7OQphRkwmAo~91vCRWWwSxFbe7Cri2I1jaCyjPQtdNPgOeFdM20pX5BeVbd0EmrdeAK8ggI4sBI1UqFTro3hFFqOP088gvRe2pSpDR-hrKPvC5pZ2jH2HEWPq1~Ps4rObrdLyfMq~JPShKceLkcju1HOM4U0u5i26WcA__",
+    "rating": {
+      "rate": 3.9,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mens Casual Premium Slim Fit T-Shirts ",
+    "price": 22.3,
+    "description": "Slim-fitting style, contrast raglan long sleeve, .",
+    "category": "men's clothing",
+    "image": "https://s3-alpha-sig.figma.com/img/d8a5/9d4a/df927fabcc511e8f6aec7237b28a7e32?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iS6xfPhetJPFvoNnbBnY0v7b2nCNlh-uG534hjWArjvTpN5Ot3n8dzMwphFJnROPgfyrBfqAy3LM4hyQJk5KaFlCrXTWJ3BbQfx5RFnenGHbC8oI-MmfCV8OQfvnyvUGkfkzAAWCtp1t~BuH5htWn3NAKjB-OKusaOjyV4k1wAH~wW08E3w5yx4Bj8BVMHlemCa6nNfWAgesri7dHMeH7tGpXycsrxDwvB9z~tlLfc10wXQDyra880CzcX~p3~nC4mLhBtgTZuBhrIjLn87RaMNoO-JwjLNrCLZDx0~u-rv8SLQQ66eGlVxc~3t6AVZU1vz0mbkl0vOmDPhsz81-Xw__",
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mens Cotton Jacket",
+    "price": 55.99,
+    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, ",
+    "category": "men's clothing",
+    "image": "https://s3-alpha-sig.figma.com/img/bf72/8cf4/05ecaa69ace035cd493ec5fbe67c3489?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RQaYayrtErt8ZzMxPLY6mvK05u3l8H4K3el67iSrOPwLXIN2O~O5VANtYKUe2U1zK446N4rMT3fX-iySSsuGruh~GgoEnxwWGotysKFplq3JScrYRft5hwTejDjeUfjMoA9YPzmTf4nrlJ7bEFSLJOxNePYRQNjrSq~hGufK8EPkJnbyUCSuX8p-6cv5dOYKWIw04jlXJnipsZaXnHh6j62sdxVGI82lrDOCMsUfeIwRCkCYWA73ZNqNhqqpmfS7DzA~GgTS22L5d-3moEMYsfBbArTpY0c3iJEit6DgnfNpwKo64wjqU5AhVxK1rkFXsvYifEIKsYaPGZVoGVAR7g__",
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
+  }
+]
