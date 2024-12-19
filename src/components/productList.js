@@ -13,7 +13,16 @@ const ProductList = () => {
   const [checkedCategories, setCheckedCategories] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [isCartDisplay, setCartDisplay] = useState(false);
-  let result = productList
+  let result = productList.filter(function (obj) {
+    if (checkedCategories.length > 0) {
+      return (
+        obj.title.toLowerCase().includes(inputValue.toLowerCase()) &&
+        checkedCategories.includes(obj.category)
+      );
+    } else {
+      return obj.title.toLowerCase().includes(inputValue.toLowerCase());
+    }
+  });
   useEffect(() => {
     fetch("https://fakestoreapi.com/products/categories")
       .then((res) => res.json())
@@ -56,6 +65,7 @@ const ProductList = () => {
           )}
         </div>
       </div>
+      <img src="footerReplace.svg" alt="footer" className="footer" />
     </div>
   );
 };

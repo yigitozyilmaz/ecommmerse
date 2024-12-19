@@ -30,18 +30,13 @@ body,
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ca6c47;
-  border-radius: 10px;
-}
+
 .nav {
   display: flex;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #da6b03;
-}
+
 .counter {
   background: rgb(146, 30, 1);
   color: white;
@@ -50,7 +45,10 @@ body,
   font-size: 20px;
   font-weight: 900;
 }
-
+.footer {
+  margin-top: 10%;
+  width: 100%;
+}
 #img {
   width: 295px;
   height: 298px;
