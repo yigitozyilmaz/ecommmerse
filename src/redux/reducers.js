@@ -13,7 +13,7 @@ const rootReducer = (state = initialState, action) => {
           if (item.id === action.payload.id) {
             return {
               ...item,
-              count: item.count + 1,
+              count: item.count + action.payload.quantity,
             };
           }
           return item;
@@ -26,8 +26,9 @@ const rootReducer = (state = initialState, action) => {
         const newItem = {
           id: action.payload.id,
           name: action.payload.title,
-          count: 1,
+          count: action.payload.quantity,
           price: action.payload.price,
+          image: action.payload.image,
         };
         return {
           ...state,

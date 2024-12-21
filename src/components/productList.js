@@ -1,19 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import productList from "../products-list.json";
 import "./product.scss";
 import Product from "./Product";
 import Navigation from "./navbar";
-import CartDialog from "./cartDialog";
+import Cart from "./cart";
 import TextArea from "./textArea";
 import ProductDetail from "./productDetail";
+
 const ProductList = () => {
   const dispatch = useDispatch();
   const [categories, setCategories] = useState([]);
   const [checkedCategories, setCheckedCategories] = useState([]);
   const [inputValue, setInputValue] = useState("");
-  const [isCartDisplay, setCartDisplay] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState(null); // Tracks selected product
+  const [isCartOpen, setCartOpen] = useState(false); // Tracks cart visibility
+
   let result = productList.filter(function (obj) {
     if (checkedCategories.length > 0) {
       return (
@@ -26,12 +28,17 @@ const ProductList = () => {
   });
 
   const handleProductClick = (product) => {
-    console.log(product);
-    setSelectedProduct(product); // Set the clicked product
+    setSelectedProduct(product); // Show product detail
+    setCartOpen(false); // Ensure cart is closed
   };
 
   const handleBackToList = () => {
-    setSelectedProduct(null); // Clear the selected product
+    setSelectedProduct(null); // Back to product list
+  };
+
+  const handleCartOpen = () => {
+    setSelectedProduct(null); // Ensure no product detail is visible
+    setCartOpen(true); // Open the cart
   };
 
   return (
@@ -39,40 +46,35 @@ const ProductList = () => {
       <Navigation
         inputValue={inputValue}
         setInputValue={setInputValue}
-        setOpen={setCartDisplay}
+        setOpen={handleCartOpen} // Trigger cart opening
       />
       <div className="ikili">
-        <TextArea />
-        <hr></hr>
+        {selectedProduct === null && !isCartOpen && <TextArea />}
+        {selectedProduct === null && !isCartOpen && <hr />}
         <div className="page">
-          {selectedProduct ? (
-            // Product detail view
+          {isCartOpen ? (
+            <Cart onBack={() => setCartOpen(false)} />
+          ) : selectedProduct ? (
             <ProductDetail
               product={selectedProduct}
               onBack={handleBackToList}
             />
           ) : (
-            // Product list view
             <>
-              <h1 className="products"> PRODUCTS</h1>
+              <h1 className="products">PRODUCTS</h1>
               <div className="cardList">
                 {result.map((value, index) => (
                   <Product
                     product={value}
                     key={index}
-                    onClick={() => handleProductClick(value)} // Add click handler
+                    onClick={() => handleProductClick(value)}
                   />
                 ))}
               </div>
             </>
           )}
-          {isCartDisplay && (
-            <CartDialog
-              isOpen={isCartDisplay}
-              onClose={() => setCartDisplay(false)}
-            />
-          )}
         </div>
+
       </div>
       <img src="footerReplace.svg" alt="footer" className="footer" />
     </div>
