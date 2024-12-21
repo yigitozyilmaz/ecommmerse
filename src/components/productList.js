@@ -6,13 +6,14 @@ import Product from "./Product";
 import Navigation from "./navbar";
 import CartDialog from "./cartDialog";
 import TextArea from "./textArea";
-
+import ProductDetail from "./productDetail";
 const ProductList = () => {
   const dispatch = useDispatch();
   const [categories, setCategories] = useState([]);
   const [checkedCategories, setCheckedCategories] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [isCartDisplay, setCartDisplay] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
   let result = productList.filter(function (obj) {
     if (checkedCategories.length > 0) {
       return (
@@ -23,20 +24,14 @@ const ProductList = () => {
       return obj.title.toLowerCase().includes(inputValue.toLowerCase());
     }
   });
-  useEffect(() => {
-    fetch("https://fakestoreapi.com/products/categories")
-      .then((res) => res.json())
-      .then((json) => setCategories(json));
-  }, []);
 
-  const handleCheckbox = (event) => {
-    if (event.target.checked) {
-      setCheckedCategories([...checkedCategories, event.target.value]);
-    } else {
-      setCheckedCategories(
-        checkedCategories.filter((value) => value !== event.target.value)
-      );
-    }
+  const handleProductClick = (product) => {
+    console.log(product);
+    setSelectedProduct(product); // Set the clicked product
+  };
+
+  const handleBackToList = () => {
+    setSelectedProduct(null); // Clear the selected product
   };
 
   return (
@@ -50,13 +45,27 @@ const ProductList = () => {
         <TextArea />
         <hr></hr>
         <div className="page">
-          <h1 className="products"> PRODUCTS</h1>
-          <div className="cardList">
-            {" "}
-            {result.map((value, index) => (
-              <Product product={value} key={index} />
-            ))}{" "}
-          </div>
+          {selectedProduct ? (
+            // Product detail view
+            <ProductDetail
+              product={selectedProduct}
+              onBack={handleBackToList}
+            />
+          ) : (
+            // Product list view
+            <>
+              <h1 className="products"> PRODUCTS</h1>
+              <div className="cardList">
+                {result.map((value, index) => (
+                  <Product
+                    product={value}
+                    key={index}
+                    onClick={() => handleProductClick(value)} // Add click handler
+                  />
+                ))}
+              </div>
+            </>
+          )}
           {isCartDisplay && (
             <CartDialog
               isOpen={isCartDisplay}
