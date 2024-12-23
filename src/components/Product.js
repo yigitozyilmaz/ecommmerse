@@ -20,8 +20,8 @@ const Product = ({ product, onClick }) => {
     <div className="card" onClick={onClick}>
       <img src={product.image} id="img"></img>
       <div className="card-content">
-        <h3 className="h3ler">{truncateText(product.title, 20)}</h3>
-        <p>{truncateText(product.description, 55)}</p>
+        <h3 className="h3ler">{truncateText(product.title)}</h3>
+        <p>{truncateText(product.description)}</p>
         <h3 className="h3ler prize">{product.price} $</h3>
       </div>
     </div>

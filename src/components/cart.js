@@ -33,11 +33,10 @@ const Cart = ({ onBack }) => {
             <button className="back-button" onClick={onBack}>
                 HOME
             </button>
-            <span>></span>
             <button className="back-button-1" disabled>
                 PRODUCTS
             </button>
-            <h1>Your Cart</h1>
+            <h1 className="CartBaslik">YOUR CART</h1>
             <div className="cart-content">
                 {/* Left side: Cart Items */}
                 <div className="cart-items">
@@ -46,7 +45,7 @@ const Cart = ({ onBack }) => {
                             <img src={item.image} alt={item.name} className="cart-item-image" />
                             <div className="cart-item-details">
                                 <h2>{item.name}</h2>
-                                <p>${item.price}</p>
+                                <h2>${item.price}</h2>
                             </div>
                             <div className="quantity-controls">
                                 <button
@@ -67,15 +66,15 @@ const Cart = ({ onBack }) => {
                                 className="remove-button"
                                 onClick={() => handleRemove(item.id)}
                             >
-                                🗑️
+                                <i class="fa-solid fa-trash" ></i>
                             </button>
                         </div>
                     ))}
                 </div>
 
                 {/* Right side: Order Summary */}
-                <div className="cart-summary">
-                    <h2>ORDER SUMMARY</h2>
+                <div className="cart-summary-1">
+                    <h2 className="baslik">ORDER SUMMARY</h2>
                     <p>
                         <strong>Subtotal:</strong> ${calculateSubtotal().toFixed(2)}
                     </p>

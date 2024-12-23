@@ -3,13 +3,24 @@ import React, { useState } from "react";
 import "./ProductDetail.scss"; // Import the corresponding CSS file
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/actions";
+import { toast, ToastContainer } from "react-toastify"; // Import Toastify
+import "react-toastify/dist/ReactToastify.css"; // Import Toastify styles
 
 const ProductDetail = ({ product, onBack }) => {
     const dispatch = useDispatch();
     const [quantity, setQuantity] = useState(1); // State to manage quantity
 
     const handleAddToCart = () => {
-        dispatch(addToCart({ ...product, quantity })); // Send the product with the selected quantity
+        dispatch(addToCart({ ...product, quantity })); // Dispatch the action
+        toast.success("Product added to cart!", {
+            position: "bottom-center",
+            autoClose: 3000, // Toast will close after 3 seconds
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            theme: "colored", // Colored theme for success message
+        }); // Show toast notification
     };
 
     const handleIncrement = () => {
@@ -35,7 +46,7 @@ const ProductDetail = ({ product, onBack }) => {
                 </div>
                 <div className="product-info">
                     <h1 className="product-title">{product.title}</h1>
-                    <p className="product-description">{product.description}</p>
+                    <p className="product-description">{product.long_desc}</p>
                     <h2 className="product-price">${product.price}</h2>
                     <div className="product-actions">
                         <div className="quantity-controls">
@@ -53,6 +64,18 @@ const ProductDetail = ({ product, onBack }) => {
                     </div>
                 </div>
             </div>
+            <ToastContainer
+                position="bottom-center" // Alt ortada gösterir
+                autoClose={3000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="colored"
+            />
         </div>
     );
 };
