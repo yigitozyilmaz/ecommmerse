@@ -33,6 +33,7 @@ const Cart = ({ onBack }) => {
             <button className="back-button" onClick={onBack}>
                 HOME
             </button>
+            <span>></span>
             <button className="back-button-1" disabled>
                 PRODUCTS
             </button>
