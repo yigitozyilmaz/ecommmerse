@@ -12,6 +12,7 @@ import TermsAndConditions from "./TermsAndConditions";
 import CorporateSocialResponsibility from "./CorporateSocialResponsibility";
 import EnvironmentalPolicy from "./EnvironmentalPolicy";
 import AboutUs from "./AboutUs";
+import PrivacyAndPolicy from "./PrivacyAndPolicy";
 
 const ProductList = () => {
   const dispatch = useDispatch();
@@ -75,6 +76,8 @@ const ProductList = () => {
             <EnvironmentalPolicy />
           ) : currentView === "about" ? (
             <AboutUs />
+          ) : currentView === "privacy" ? (
+            <PrivacyAndPolicy />
           ) : (
             <>
               <h1 className="products">PRODUCTS</h1>
