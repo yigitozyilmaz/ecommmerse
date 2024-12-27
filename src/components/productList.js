@@ -7,6 +7,11 @@ import Navigation from "./navbar";
 import Cart from "./cart";
 import TextArea from "./textArea";
 import ProductDetail from "./productDetail";
+import Footer from "./Footer";
+import TermsAndConditions from "./TermsAndConditions";
+import CorporateSocialResponsibility from "./CorporateSocialResponsibility";
+import EnvironmentalPolicy from "./EnvironmentalPolicy";
+import AboutUs from "./AboutUs";
 
 const ProductList = () => {
   const dispatch = useDispatch();
@@ -15,7 +20,7 @@ const ProductList = () => {
   const [inputValue, setInputValue] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null); // Tracks selected product
   const [isCartOpen, setCartOpen] = useState(false); // Tracks cart visibility
-
+  const [currentView, setCurrentView] = useState("products");
   let result = productList.filter(function (obj) {
     if (checkedCategories.length > 0) {
       return (
@@ -34,6 +39,7 @@ const ProductList = () => {
 
   const handleBackToList = () => {
     setSelectedProduct(null); // Back to product list
+    setCurrentView(null);
   };
 
   const handleCartOpen = () => {
@@ -41,16 +47,18 @@ const ProductList = () => {
     setCartOpen(true); // Open the cart
   };
 
+
   return (
     <div className="mainDiv">
       <Navigation
         inputValue={inputValue}
         setInputValue={setInputValue}
         setOpen={handleCartOpen} // Trigger cart opening
+        onBack={handleBackToList}
       />
       <div className="ikili">
-        {selectedProduct === null && !isCartOpen && <TextArea />}
-        {selectedProduct === null && !isCartOpen && <hr />}
+        {selectedProduct === null && !isCartOpen && currentView === "products" && <TextArea />}
+        {selectedProduct === null && !isCartOpen && currentView === "products" && <hr />}
         <div className="page">
           {isCartOpen ? (
             <Cart onBack={() => setCartOpen(false)} />
@@ -59,6 +67,14 @@ const ProductList = () => {
               product={selectedProduct}
               onBack={handleBackToList}
             />
+          ) : currentView === "terms" ? (
+            <TermsAndConditions />
+          ) : currentView === "csr" ? (
+            <CorporateSocialResponsibility />
+          ) : currentView === "environmental" ? (
+            <EnvironmentalPolicy />
+          ) : currentView === "about" ? (
+            <AboutUs />
           ) : (
             <>
               <h1 className="products">PRODUCTS</h1>
@@ -76,7 +92,7 @@ const ProductList = () => {
         </div>
 
       </div>
-      <img src="footerReplace.svg" alt="footer" className="footer" />
+      <Footer setCurrentView={setCurrentView} />
     </div>
   );
 };

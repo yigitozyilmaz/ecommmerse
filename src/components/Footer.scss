@@ -1,0 +1,111 @@
+.footer-container {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  padding: 20px 20px;
+  color: #333;
+  margin-top: 15%;
+}
+
+.footer-banner {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative; /* Makes the 'top' property effective */
+  top: -60px; /* Moves the banner 20px above its original position */
+  margin: 0 auto 40px; /* Adds spacing below the banner */
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  text-align: left;
+}
+.CardIcon {
+  width: 100%;
+  height: 100%;
+}
+.footer-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #666;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+}
+.footer-section a {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #007bff; /* Optional hover color */
+}
+.clickable {
+  cursor: pointer; /* Make the cursor look like a pointer */
+  text-decoration: none; /* No underline by default */
+  color: #333; /* Default text color */
+  margin: 5px 0; /* Spacing between the items */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+}
+
+.clickable:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #007bff; /* Optional: Change color on hover */
+}

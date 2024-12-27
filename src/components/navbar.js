@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-const Navigation = ({ inputValue, setInputValue, setOpen }) => {
+const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
   const cartItems = useSelector((state) => state.cart);
   let sum = 0;
 
@@ -12,7 +12,7 @@ const Navigation = ({ inputValue, setInputValue, setOpen }) => {
   return (
     <nav className="navBar">
       <div className="nav">
-        <img src="../logo.svg " alt="logo" className="logo" />
+        <img src="../logo.svg " alt="logo" className="logo" onClick={onBack} />
         <input
           className="search"
           type="text"
