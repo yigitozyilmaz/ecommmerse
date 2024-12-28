@@ -3,6 +3,10 @@ html,
 body,
 #root {
   background: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 .mainDiv {
   text-align: center;
@@ -109,6 +113,7 @@ body,
   height: 200px;
 }
 .navBar {
+  border-top: 40px solid #000;
   width: 100%;
   height: 48px;
   display: flex;
@@ -376,7 +381,7 @@ hr {
 
 @media only screen and (min-width: 1541px) {
   .navBar {
-    width: 98%;
+    width: 100%;
   }
   .cardList {
     grid-template-columns: auto auto auto none;
