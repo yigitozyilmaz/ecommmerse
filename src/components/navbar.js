@@ -13,6 +13,7 @@ const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
     <nav className="navBar">
       <div className="nav">
         <img src="../logo.svg " alt="logo" className="logo" onClick={onBack} />
+        <p className="clickableB"> CATEGORY</p>
         <input
           className="search"
           type="text"
@@ -23,7 +24,7 @@ const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
       </div>
       <div className="flex logo-div">
         <div className="cart-logo">
-          <span className="cart-count">{sum}</span> {/* Optional Cart Count */}
+          {/*  <span className="cart-count">{sum}</span>  Optional Cart Count */}
           <img
             src="../cart.svg"
             alt="cart"
@@ -31,7 +32,7 @@ const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
             onClick={() => setOpen()} // Opens the cart
           />
         </div>
-        <div>      <img src="../profil.svg " alt="profile" className="logo-pp" /></div>
+
       </div>
 
     </nav>

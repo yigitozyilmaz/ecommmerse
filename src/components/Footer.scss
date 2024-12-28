@@ -109,3 +109,17 @@
   text-decoration: underline; /* Underline on hover */
   color: #007bff; /* Optional: Change color on hover */
 }
+.clickableB {
+  cursor: pointer; /* Make the cursor look like a pointer */
+  text-decoration: none; /* No underline by default */
+  color: #333; /* Default text color */
+  margin-right: 10%;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+}
+
+.clickableB:hover {
+  /* Underline on hover */
+  color: #6b6e70; /* Optional: Change color on hover */
+}
