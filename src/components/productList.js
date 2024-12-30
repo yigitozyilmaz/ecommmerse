@@ -99,8 +99,6 @@ const ProductList = () => {
           ) : (
 
             (!selectedCategory ? (
-              // Eğer kategori seçilmediyse kategorileri göster
-
               <Categories
                 categories={categories}
                 onCategorySelect={(category) => setSelectedCategory(category)}
