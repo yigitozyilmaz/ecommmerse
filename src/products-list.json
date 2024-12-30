@@ -2,7 +2,8 @@
   {
     "id": 1,
     "title": "Spiral College Notebook (80 Sheets)",
-    "price": 100,
+    "price": 6.0,
+    "category": "Notebooks and Notepads",
     "description": "This practical spiral notebook with 80 sheets is an ideal choice for your school or office needs. Its durable spiral design allows pages to open easily, making writing a breeze. Perfect for both students and professionals alike.",
     "long_desc": "This practical spiral notebook with 80 sheets is an ideal choice for your school or office needs. Its durable spiral design allows pages to open easily, making writing a breeze. Perfect for both students and professionals alike.",
     "image": "/products/Spiral College Notebook (80 Sheets).png"
@@ -10,7 +11,8 @@
   {
     "id": 2,
     "title": "Lined A5 Leather-Covered Notepad",
-    "price": 100,
+    "price": 30.0,
+    "category": "Notebooks and Notepads",
     "description": "Elegance and style combined in this A5 leather-covered notepad, making it the perfect companion for all your writing needs. The lined pages ensure your writing stays neat and legible, while the compact size makes it easy to carry everywhere.",
     "long_desc": "Elegance and style combined in this A5 leather-covered notepad, making it the perfect companion for all your writing needs. The lined pages ensure your writing stays neat and legible, while the compact size makes it easy to carry everywhere.",
     "image": "/products/Lined A5 Leather-Covered Notepad.png"
@@ -18,7 +20,8 @@
   {
     "id": 3,
     "title": "Hardcover Grid Notebook (120 Sheets)",
-    "price": 100,
+    "price": 22.0,
+    "category": "Notebooks and Notepads",
     "description": "Featuring 120 pages, this hardcover grid notebook is perfect for those who love to draw or need to keep their notes organized. The sturdy cover offers long-lasting durability, while the grid pages are ideal for sketches and design work.",
     "long_desc": "Featuring 120 pages, this hardcover grid notebook is perfect for those who love to draw or need to keep their notes organized. The sturdy cover offers long-lasting durability, while the grid pages are ideal for sketches and design work.",
     "image": "/products/Hardcover Grid Notebook (120 Sheets).png"
@@ -26,7 +29,8 @@
   {
     "id": 4,
     "title": "Planner and Agenda Set (Weekly/Daily)",
-    "price": 100,
+    "price": 36.0,
+    "category": "Notebooks and Notepads",
     "description": "The stylish way to organize your plans! This set offers both weekly and daily planning options to help you stay on top of your tasks. By planning effectively, you can easily achieve your goals, making it perfect for both professional and personal use.",
     "long_desc": "The stylish way to organize your plans! This set offers both weekly and daily planning options to help you stay on top of your tasks. By planning effectively, you can easily achieve your goals, making it perfect for both professional and personal use.",
     "image": "/products/Planner and Agenda Set (Weekly_Daily).png"
@@ -34,7 +38,8 @@
   {
     "id": 5,
     "title": "Mini Pocket Notebook (Set of 5)",
-    "price": 100,
+    "price": 14.0,
+    "category": "Notebooks and Notepads",
     "description": "This set includes five mini notebooks that can easily fit in your pocket. Compact yet functional, they allow you to jot down thoughts, notes, or creative ideas wherever you go. Always have a place to write with these handy notebooks!",
     "long_desc": "This set includes five mini notebooks that can easily fit in your pocket. Compact yet functional, they allow you to jot down thoughts, notes, or creative ideas wherever you go. Always have a place to write with these handy notebooks!",
     "image": "/products/Mini Pocket Notebook (Set of 5).png"
@@ -42,7 +47,8 @@
   {
     "id": 6,
     "title": "Fountain Pen Set (Gold Nib)",
-    "price": 100,
+    "price": 180.0,
+    "category": "Pens and Writing Supplies",
     "description": "Elevate your writing experience with this elegant fountain pen set featuring a luxurious gold nib. Perfect for those who appreciate fine writing instruments, this set provides smooth, fluid writing with a touch of class. Ideal for both personal and professional use.",
     "long_desc": "Elevate your writing experience with this elegant fountain pen set featuring a luxurious gold nib. Perfect for those who appreciate fine writing instruments, this set provides smooth, fluid writing with a touch of class. Ideal for both personal and professional use.",
     "image": "/products/Fountain Pen Set(Gold Nib).png"
@@ -50,7 +56,8 @@
   {
     "id": 7,
     "title": "Ballpoint Pen (Black, Blue, Red - Pack of 3)",
-    "price": 100,
+    "price": 12.0,
+    "category": "Pens and Writing Supplies",
     "description": "This versatile pack of three ballpoint pens comes in black, blue, and red ink colors, offering a range of writing options for every occasion. With a smooth, consistent ink flow, these pens are reliable for both everyday writing and important notes.",
     "long_desc": "This versatile pack of three ballpoint pens comes in black, blue, and red ink colors, offering a range of writing options for every occasion. With a smooth, consistent ink flow, these pens are reliable for both everyday writing and important notes.",
     "image": "/products/Ballpoint Pen (Black, Blue, Red - Pack of 3).png"
@@ -58,7 +65,8 @@
   {
     "id": 8,
     "title": "Mechanical Pencil + Lead Refill Set",
-    "price": 100,
+    "price": 14.0,
+    "category": "Pens and Writing Supplies",
     "description": "This mechanical pencil set includes a high-quality pencil with an ergonomic design, ensuring comfortable writing for hours. The set also comes with lead refills, making it easy to keep writing without interruption. Perfect for detailed notes or sketches.",
     "long_desc": "This mechanical pencil set includes a high-quality pencil with an ergonomic design, ensuring comfortable writing for hours. The set also comes with lead refills, making it easy to keep writing without interruption. Perfect for detailed notes or sketches.",
     "image": "/products/Mechanical Pencil Lead Refill Set.png"
@@ -66,7 +74,8 @@
   {
     "id": 9,
     "title": "Highlighter Pens (Pastel Colors - Set of 6)",
-    "price": 100,
+    "price": 12.0,
+    "category": "Pens and Writing Supplies",
     "description": "Brighten up your notes with this set of six pastel-colored highlighter pens. The soft, vibrant colors provide clear visibility while adding a touch of flair to your work. Ideal for highlighting important sections without overwhelming the text.",
     "long_desc": "Brighten up your notes with this set of six pastel-colored highlighter pens. The soft, vibrant colors provide clear visibility while adding a touch of flair to your work. Ideal for highlighting important sections without overwhelming the text.",
     "image": "/products/Highlighter Pens (Pastel Colors - Set of 6).png"
@@ -74,7 +83,8 @@
   {
     "id": 10,
     "title": "Calligraphy Pen Starter Kit",
-    "price": 100,
+    "price": 48.0,
+    "category": "Pens and Writing Supplies",
     "description": "Unleash your creativity with this calligraphy pen starter kit. Whether you're a beginner or looking to improve your skills, this set provides everything you need to start practicing beautiful, flowing lettering. Includes pens, nibs, and ink for the perfect calligraphy experience.",
     "long_desc": "Unleash your creativity with this calligraphy pen starter kit. Whether you're a beginner or looking to improve your skills, this set provides everything you need to start practicing beautiful, flowing lettering. Includes pens, nibs, and ink for the perfect calligraphy experience.",
     "image": "/products/Calligraphy Pen Starter Kit.png"
@@ -82,7 +92,8 @@
   {
     "id": 11,
     "title": "Watercolor Set (24 Colors)",
-    "price": 100,
+    "price": 30.0,
+    "category": "Art Supplies",
     "description": "Bring your artwork to life with this vibrant watercolor set, featuring 24 rich, highly-pigmented colors. Perfect for both beginners and experienced artists, these watercolors offer smooth blending and consistent color payoff, making your paintings truly stand out.",
     "long_desc": "Bring your artwork to life with this vibrant watercolor set, featuring 24 rich, highly-pigmented colors. Perfect for both beginners and experienced artists, these watercolors offer smooth blending and consistent color payoff, making your paintings truly stand out.",
     "image": "/products/Watercolor Set (24 Colors).png"
@@ -90,7 +101,8 @@
   {
     "id": 12,
     "title": "Sketchbook (Thick Paper, A4 Size)",
-    "price": 100,
+    "price": 24.0,
+    "category": "Art Supplies",
     "description": "This sketchbook is designed with thick, high-quality paper to handle various media, from pencils to markers and even light washes. The A4 size provides ample space for sketches, doodles, and detailed artwork, making it perfect for artists of all levels.",
     "long_desc": "This sketchbook is designed with thick, high-quality paper to handle various media, from pencils to markers and even light washes. The A4 size provides ample space for sketches, doodles, and detailed artwork, making it perfect for artists of all levels.",
     "image": "/products/Sketchbook (Thick Paper, A4 Size).png"
@@ -98,7 +110,8 @@
   {
     "id": 13,
     "title": "Charcoal Drawing Kit (4B-8B Pencils)",
-    "price": 100,
+    "price": 18.0,
+    "category": "Art Supplies",
     "description": "This charcoal drawing kit includes a range of 4B to 8B pencils, allowing you to create everything from light sketches to deep, rich shading. Ideal for artists who love the bold contrasts and expressive tones charcoal offers.",
     "long_desc": "This charcoal drawing kit includes a range of 4B to 8B pencils, allowing you to create everything from light sketches to deep, rich shading. Ideal for artists who love the bold contrasts and expressive tones charcoal offers.",
     "image": "/products/Charcoal Drawing Kit (4B-8B Pencils).png"
@@ -106,7 +119,8 @@
   {
     "id": 14,
     "title": "Acrylic Paint Set (12 Colors)",
-    "price": 100,
+    "price": 36.0,
+    "category": "Art Supplies",
     "description": "Explore your creativity with this acrylic paint set, featuring 12 vibrant colors. These paints offer excellent coverage and smooth application, making them perfect for both beginners and seasoned artists who want to create stunning works on a variety of surfaces.",
     "long_desc": "Explore your creativity with this acrylic paint set, featuring 12 vibrant colors. These paints offer excellent coverage and smooth application, making them perfect for both beginners and seasoned artists who want to create stunning works on a variety of surfaces.",
     "image": "/products/Acrylic Paint Set (12 Colors).png"
@@ -114,7 +128,8 @@
   {
     "id": 15,
     "title": "Canvas Pad (30x40 cm, Set of 3)",
-    "price": 100,
+    "price": 42.0,
+    "category": "Art Supplies",
     "description": "This set of three canvas pads (30x40 cm) is ideal for artists who prefer to work on a portable, high-quality surface. The thick, textured canvas is perfect for acrylic, oil, or mixed media, offering a professional feel without the need for stretched canvases.",
     "long_desc": "This set of three canvas pads (30x40 cm) is ideal for artists who prefer to work on a portable, high-quality surface. The thick, textured canvas is perfect for acrylic, oil, or mixed media, offering a professional feel without the need for stretched canvases.",
     "image": "/products/Canvas Pad (30x40 cm, Set of 3).png"
@@ -122,7 +137,8 @@
   {
     "id": 16,
     "title": "Desktop Organizer (Pen Holder, Notepad, Drawer)",
-    "price": 100,
+    "price": 30.0,
+    "category": "Office and Desk Accessories",
     "description": "Keep your workspace neat and tidy with this all-in-one desktop organizer. Featuring a pen holder, notepad compartment, and a convenient drawer, it provides a stylish and functional solution for organizing your office essentials.",
     "long_desc": "Keep your workspace neat and tidy with this all-in-one desktop organizer. Featuring a pen holder, notepad compartment, and a convenient drawer, it provides a stylish and functional solution for organizing your office essentials.",
     "image": "/products/Desktop Organizer.png"
@@ -130,7 +146,8 @@
   {
     "id": 17,
     "title": "Sticky Notes (4 Colors, 400 Sheets)",
-    "price": 100,
+    "price": 7.0,
+    "category": "Office and Desk Accessories",
     "description": "Stay organized and efficient with this pack of 400 sticky notes in four vibrant colors. Perfect for jotting down quick reminders, marking important pages, or color-coding your tasks. The strong adhesive ensures they stay in place, yet peel off easily.",
     "long_desc": "Stay organized and efficient with this pack of 400 sticky notes in four vibrant colors. Perfect for jotting down quick reminders, marking important pages, or color-coding your tasks. The strong adhesive ensures they stay in place, yet peel off easily.",
     "image": "/products/Sticky Notes (4 Colors, 400 Sheets).png"
@@ -138,7 +155,8 @@
   {
     "id": 18,
     "title": "Transparent File and Document Organizer (Pack of 10)",
-    "price": 100,
+    "price": 18.0,
+    "category": "Office and Desk Accessories",
     "description": "Keep your documents in order with this transparent file and document organizer set. With 10 individual files, this pack is perfect for sorting and storing papers, reports, or presentations. The clear design makes it easy to locate documents at a glance.",
     "long_desc": "Keep your documents in order with this transparent file and document organizer set. With 10 individual files, this pack is perfect for sorting and storing papers, reports, or presentations. The clear design makes it easy to locate documents at a glance.",
     "image": "/products/Transparent File and Document Organizer (Pack of 10).png"
@@ -146,7 +164,8 @@
   {
     "id": 19,
     "title": "Stapler and Staples Set",
-    "price": 100,
+    "price": 14.0,
+    "category": "Office and Desk Accessories",
     "description": "This stapler set includes a high-quality stapler and a pack of staples, ideal for all your binding and organizing needs. The compact design ensures ease of use, and it staples up to a good number of sheets at once, making it perfect for home or office use.",
     "long_desc": "This stapler set includes a high-quality stapler and a pack of staples, ideal for all your binding and organizing needs. The compact design ensures ease of use, and it staples up to a good number of sheets at once, making it perfect for home or office use.",
     "image": "/products/Stapler and Staples Set.png"
@@ -154,7 +173,8 @@
   {
     "id": 20,
     "title": "Small Desktop Globe Map",
-    "price": 100,
+    "price": 60.0,
+    "category": "Office and Desk Accessories",
     "description": "Add a touch of elegance to your desk with this small desktop globe map. Its compact size makes it perfect for any workspace, while the detailed globe design offers both aesthetic appeal and a practical reference for geography enthusiasts.",
     "long_desc": "Add a touch of elegance to your desk with this small desktop globe map. Its compact size makes it perfect for any workspace, while the detailed globe design offers both aesthetic appeal and a practical reference for geography enthusiasts.",
     "image": "/products/Small Desktop Globe Map.png"
@@ -162,7 +182,8 @@
   {
     "id": 21,
     "title": "Multi-Compartment Classic Pencil Case",
-    "price": 100,
+    "price": 18.0,
+    "category": "Bags and Pencil Cases",
     "description": "Stay organized with this classic pencil case featuring multiple compartments for pens, pencils, erasers, and other small accessories. Its spacious design and sturdy zipper make it perfect for students and professionals who like to keep their tools neatly arranged.",
     "long_desc": "Stay organized with this classic pencil case featuring multiple compartments for pens, pencils, erasers, and other small accessories. Its spacious design and sturdy zipper make it perfect for students and professionals who like to keep their tools neatly arranged.",
     "image": "/products/Multi-Compartment Classic Pencil C.png"
@@ -170,7 +191,8 @@
   {
     "id": 22,
     "title": "Laptop and Notebook-Compatible Backpack",
-    "price": 100,
+    "price": 96.0,
+    "category": "Bags and Pencil Cases",
     "description": "This versatile backpack is designed to safely carry both laptops and notebooks, with padded compartments to protect your devices. Its sleek, modern design and adjustable straps provide comfort and functionality, making it ideal for work, study, or travel.",
     "long_desc": "This versatile backpack is designed to safely carry both laptops and notebooks, with padded compartments to protect your devices. Its sleek, modern design and adjustable straps provide comfort and functionality, making it ideal for work, study, or travel.",
     "image": "/products/Laptop and Notebook-Compatible Backpack.png"
@@ -178,7 +200,8 @@
   {
     "id": 23,
     "title": "Colorful Zippered Pencil Case (Patterned)",
-    "price": 100,
+    "price": 14.0,
+    "category": "Bags and Pencil Cases",
     "description": "Add a pop of color to your stationery with this zippered pencil case featuring fun and vibrant patterns. Perfect for holding pens, pencils, and small items, it combines style with practicality, making it a great addition to your desk or backpack.",
     "long_desc": "Add a pop of color to your stationery with this zippered pencil case featuring fun and vibrant patterns. Perfect for holding pens, pencils, and small items, it combines style with practicality, making it a great addition to your desk or backpack.",
     "image": "/products/Colorful Zippered Pencil Case (Patterned).png"
@@ -186,7 +209,8 @@
   {
     "id": 24,
     "title": "Waterproof Document and File Bag",
-    "price": 100,
+    "price": 24.0,
+    "category": "Bags and Pencil Cases",
     "description": "Keep your important documents safe and dry with this waterproof document and file bag. Ideal for carrying paperwork, files, and folders, it’s designed to withstand rain and spills, ensuring your documents stay protected no matter the weather.",
     "long_desc": "Keep your important documents safe and dry with this waterproof document and file bag. Ideal for carrying paperwork, files, and folders, it’s designed to withstand rain and spills, ensuring your documents stay protected no matter the weather.",
     "image": "/products/Waterproof Document and File Bag.png"
@@ -194,7 +218,8 @@
   {
     "id": 25,
     "title": "Kids’ Adorable Character Pencil Case",
-    "price": 100,
+    "price": 14.0,
+    "category": "Bags and Pencil Cases",
     "description": "Make organizing school supplies fun with this adorable pencil case featuring cute character designs. Perfect for kids, it has plenty of room to store pencils, pens, and erasers, while the durable material ensures it can handle daily use.",
     "long_desc": "Make organizing school supplies fun with this adorable pencil case featuring cute character designs. Perfect for kids, it has plenty of room to store pencils, pens, and erasers, while the durable material ensures it can handle daily use.",
     "image": "/products/Kids’ Adorable Character Pencil Case.png"
@@ -202,7 +227,8 @@
   {
     "id": 26,
     "title": "Colorful File and Document Folder (A4, Pack of 3)",
-    "price": 100,
+    "price": 10.0,
+    "category": "Filing and Archiving",
     "description": "Add a splash of color to your filing system with this pack of 3 A4-size file and document folders. Made from durable material, these folders offer a practical way to organize your documents while their vibrant colors make it easy to differentiate between files, keeping your workspace tidy.",
     "long_desc": "Add a splash of color to your filing system with this pack of 3 A4-size file and document folders. Made from durable material, these folders offer a practical way to organize your documents while their vibrant colors make it easy to differentiate between files, keeping your workspace tidy.",
     "image": "/products/Colorful File and Document Folder (A4, Pack of 3).png"
@@ -210,7 +236,8 @@
   {
     "id": 27,
     "title": "Elastic Cardboard Document Folder (Set of 5)",
-    "price": 100,
+    "price": 12.0,
+    "category": "Filing and Archiving",
     "description": "This set of 5 elastic cardboard document folders is perfect for organizing and storing important papers. The elastic closure keeps your documents secure, while the sturdy cardboard construction ensures long-lasting durability. Ideal for both personal and office use.",
     "long_desc": "This set of 5 elastic cardboard document folders is perfect for organizing and storing important papers. The elastic closure keeps your documents secure, while the sturdy cardboard construction ensures long-lasting durability. Ideal for both personal and office use.",
     "image": "/products/Elastic Cardboard Document Folder (Set of 5).png"
@@ -218,7 +245,8 @@
   {
     "id": 28,
     "title": "Transparent Cover Presentation Folder (40 Sheets Capacity)",
-    "price": 100,
+    "price": 14.0,
+    "category": "Filing and Archiving",
     "description": "This presentation folder features a transparent cover that allows you to see the contents while keeping your papers organized and protected. With a capacity of up to 40 sheets, it’s perfect for storing presentations, reports, and other important documents, making it easy to present and access your materials.",
     "long_desc": "This presentation folder features a transparent cover that allows you to see the contents while keeping your papers organized and protected. With a capacity of up to 40 sheets, it’s perfect for storing presentations, reports, and other important documents, making it easy to present and access your materials.",
     "image": "/products/Transparent Cover Presentation Folder (40 Sheets Capacity).png"
@@ -226,7 +254,8 @@
   {
     "id": 29,
     "title": "A5 Size Snap-Closure File Bag (Pack of 10)",
-    "price": 100,
+    "price": 18.0,
+    "category": "Filing and Archiving",
     "description": "This set of 10 A5-size snap-closure file bags is ideal for organizing smaller documents, stationery, or notes. The snap closure ensures your contents are securely stored, while the compact size makes them easy to carry or store in drawers and cabinets.",
     "long_desc": "This set of 10 A5-size snap-closure file bags is ideal for organizing smaller documents, stationery, or notes. The snap closure ensures your contents are securely stored, while the compact size makes them easy to carry or store in drawers and cabinets.",
     "image": "/products/A5 Size Snap-Closure File Bag (Pack of 10).png"
@@ -234,7 +263,8 @@
   {
     "id": 30,
     "title": "Labeled Archive Box (Large Size)",
-    "price": 100,
+    "price": 30.0,
+    "category": "Filing and Archiving",
     "description": "Keep your documents well-organized and easy to find with this large labeled archive box. Perfect for long-term storage of files, the labeled design allows you to quickly identify contents. Its sturdy construction makes it ideal for archiving important documents, keeping them safe and accessible.",
     "long_desc": "Keep your documents well-organized and easy to find with this large labeled archive box. Perfect for long-term storage of files, the labeled design allows you to quickly identify contents. Its sturdy construction makes it ideal for archiving important documents, keeping them safe and accessible.",
     "image": "/products/Labeled Archive Box (Large Size).png"
@@ -242,7 +272,8 @@
   {
     "id": 31,
     "title": "30 cm Metal Ruler",
-    "price": 100,
+    "price": 6.0,
+    "category": "School Supplies",
     "description": "This sturdy 30 cm metal ruler is designed for accuracy and durability. Ideal for students and professionals alike, it provides precise measurements and straight edges for all your drawing, crafting, and measuring needs. The metal construction ensures it lasts for a long time without bending or breaking.",
     "long_desc": "This sturdy 30 cm metal ruler is designed for accuracy and durability. Ideal for students and professionals alike, it provides precise measurements and straight edges for all your drawing, crafting, and measuring needs. The metal construction ensures it lasts for a long time without bending or breaking.",
     "image": "/products/30 cm Metal Ruler.png"
@@ -250,7 +281,8 @@
   {
     "id": 32,
     "title": "Geometry Set (Compass, Protractor, Ruler)",
-    "price": 100,
+    "price": 10.0,
+    "category": "School Supplies",
     "description": "This all-in-one geometry set includes a compass, protractor, and ruler, making it the perfect tool for students in mathematics and geometry. Whether you’re measuring angles, drawing circles, or creating precise lines, this set will help you complete your assignments with ease.",
     "long_desc": "This all-in-one geometry set includes a compass, protractor, and ruler, making it the perfect tool for students in mathematics and geometry. Whether you’re measuring angles, drawing circles, or creating precise lines, this set will help you complete your assignments with ease.",
     "image": "/products/Geometry Set (Compass, Protractor, Ruler).png"
@@ -258,7 +290,8 @@
   {
     "id": 33,
     "title": "Erasable Colored Pencil Set (12 Colors)",
-    "price": 100,
+    "price": 10.0,
+    "category": "School Supplies",
     "description": "Bring your creativity to life with this set of 12 erasable colored pencils. Featuring vibrant colors, these pencils allow you to draw, color, and shade with ease, while the erasable feature lets you make changes without any mess. Ideal for both art and school projects.",
     "long_desc": "Bring your creativity to life with this set of 12 erasable colored pencils. Featuring vibrant colors, these pencils allow you to draw, color, and shade with ease, while the erasable feature lets you make changes without any mess. Ideal for both art and school projects.",
     "image": "/products/Erasable Colored Pencil Set (12 Colors).png"
@@ -266,7 +299,8 @@
   {
     "id": 34,
     "title": "Glue and Tape Set (Liquid and Stick)",
-    "price": 100,
+    "price": 22.0,
+    "category": "School Supplies",
     "description": "This practical set includes both liquid glue and a stick glue, providing you with options for different types of projects. Whether you’re gluing paper, photos, or crafts, this set offers the convenience and versatility you need to get your work done efficiently and neatly.",
     "long_desc": "This practical set includes both liquid glue and a stick glue, providing you with options for different types of projects. Whether you’re gluing paper, photos, or crafts, this set offers the convenience and versatility you need to get your work done efficiently and neatly.",
     "image": "/products/Glue and Tape Set (Liquid and Stick).png"
@@ -274,7 +308,8 @@
   {
     "id": 35,
     "title": "Multi-Purpose Scissors (Round Tip, Child-Safe)",
-    "price": 100,
+    "price": 7.0,
+    "category": "School Supplies",
     "description": "These multi-purpose scissors are designed with safety in mind, featuring round tips that make them ideal for children. The ergonomic handle and sharp blades make cutting easy, whether it’s for school projects, crafts, or everyday tasks. Perfect for young learners to use with confidence.",
     "long_desc": "These multi-purpose scissors are designed with safety in mind, featuring round tips that make them ideal for children. The ergonomic handle and sharp blades make cutting easy, whether it’s for school projects, crafts, or everyday tasks. Perfect for young learners to use with confidence.",
     "image": "/products/Multi-Purpose Scissors (Round Tip, Child-Safe).png"

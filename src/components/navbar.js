@@ -23,15 +23,13 @@ const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
         />
       </div>
       <div className="flex logo-div">
-        <div className="cart-logo">
-          {/*  <span className="cart-count">{sum}</span>  Optional Cart Count */}
-          <img
-            src="../cart.svg"
-            alt="cart"
-            className="logo-cart"
-            onClick={() => setOpen()} // Opens the cart
-          />
-        </div>
+        {/*  <span className="cart-count">{sum}</span>  Optional Cart Count */}
+        <img
+          src="../cart.svg"
+          alt="cart"
+          className="logo-cart"
+          onClick={() => setOpen()} // Opens the cart
+        />
 
       </div>
 

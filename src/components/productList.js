@@ -13,25 +13,40 @@ import CorporateSocialResponsibility from "./CorporateSocialResponsibility";
 import EnvironmentalPolicy from "./EnvironmentalPolicy";
 import AboutUs from "./AboutUs";
 import PrivacyAndPolicy from "./PrivacyAndPolicy";
+import Categories from "./categories";
 
 const ProductList = () => {
   const dispatch = useDispatch();
-  const [categories, setCategories] = useState([]);
+
   const [checkedCategories, setCheckedCategories] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null); // Tracks selected product
   const [isCartOpen, setCartOpen] = useState(false); // Tracks cart visibility
   const [currentView, setCurrentView] = useState("products");
-  let result = productList.filter(function (obj) {
-    if (checkedCategories.length > 0) {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const categories = [
+    "Notebooks and Notepads",
+    "Pens and Writing Supplies",
+    "Art Supplies",
+    "Office and Desk Accessories",
+    "Bags and Pencil Cases",
+    "Filing and Archiving",
+    "School Supplies",
+  ];
+
+  const filteredProducts = productList.filter((product) => {
+    // Eğer kategori seçiliyse sadece o kategorideki ürünleri filtrele
+    if (selectedCategory) {
       return (
-        obj.title.toLowerCase().includes(inputValue.toLowerCase()) &&
-        checkedCategories.includes(obj.category)
+        product.category === selectedCategory &&
+        product.title.toLowerCase().includes(inputValue.toLowerCase())
       );
-    } else {
-      return obj.title.toLowerCase().includes(inputValue.toLowerCase());
     }
+    // Eğer kategori seçili değilse global arama yap
+    return product.title.toLowerCase().includes(inputValue.toLowerCase());
   });
+
+
 
   const handleProductClick = (product) => {
     setSelectedProduct(product); // Show product detail
@@ -39,14 +54,17 @@ const ProductList = () => {
   };
 
   const handleBackToList = () => {
-    setSelectedProduct(null); // Back to product list
-    setCurrentView(null);
+    setSelectedCategory(null); // Kategori seçimini sıfırla
+    setSelectedProduct(null); // Ürün detayını kapat
+    setCartOpen(false); // Sepeti kapat
+    setCurrentView("products"); // Ürün görünümünü seç
   };
 
   const handleCartOpen = () => {
     setSelectedProduct(null); // Ensure no product detail is visible
     setCartOpen(true); // Open the cart
   };
+
 
 
   return (
@@ -79,18 +97,28 @@ const ProductList = () => {
           ) : currentView === "privacy" ? (
             <PrivacyAndPolicy />
           ) : (
-            <>
-              <h1 className="products">PRODUCTS</h1>
-              <div className="cardList">
-                {result.map((value, index) => (
-                  <Product
-                    product={value}
-                    key={index}
-                    onClick={() => handleProductClick(value)}
-                  />
-                ))}
-              </div>
-            </>
+
+            (!selectedCategory ? (
+              // Eğer kategori seçilmediyse kategorileri göster
+
+              <Categories
+                categories={categories}
+                onCategorySelect={(category) => setSelectedCategory(category)}
+              />
+            ) : (
+              // Eğer kategori seçildiyse ürünleri göster
+
+              <>
+                <h1 className="products">PRODUCTS</h1><div className="cardList">
+                  {filteredProducts.length > 0 ? (
+                    filteredProducts.map((product, index) => (
+                      <Product key={index} product={product} onClick={() => handleProductClick(product)} />
+                    ))
+                  ) : (
+                    <p>No products found.</p>
+                  )}
+                </div></>
+            ))
           )}
         </div>
 
