@@ -21,7 +21,7 @@ const Product = ({ product, onClick }) => {
       <img src={product.image} id="img"></img>
       <div className="card-content">
         <h3 className="h3ler">{truncateText(product.title)}</h3>
-        <h3 className="h3ler prize">{product.price} $</h3>
+        <h3 className="h3ler prize">{product.price} €</h3>
       </div>
     </div>
 

@@ -13,7 +13,7 @@ const Navigation = ({ inputValue, setInputValue, setOpen, onBack }) => {
     <nav className="navBar">
       <div className="nav">
         <img src="../logo.svg " alt="logo" className="logo" onClick={onBack} />
-        <p className="clickableB"> CATEGORY</p>
+        <p className="clickableB" onClick={onBack} > CATEGORY</p>
         <input
           className="search"
           type="text"

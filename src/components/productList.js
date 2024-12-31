@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import productList from "../products-list.json";
 import "./product.scss";
@@ -65,7 +65,9 @@ const ProductList = () => {
     setCartOpen(true); // Open the cart
   };
 
-
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentView]);
 
   return (
     <div className="mainDiv">

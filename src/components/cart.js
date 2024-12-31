@@ -46,7 +46,7 @@ const Cart = ({ onBack }) => {
                             <img src={item.image} alt={item.name} className="cart-item-image" />
                             <div className="cart-item-details">
                                 <h2>{item.name}</h2>
-                                <h2>${item.price}</h2>
+                                <h2>€{item.price}</h2>
                             </div>
                             <div className="quantity-controls">
                                 <button
@@ -77,16 +77,16 @@ const Cart = ({ onBack }) => {
                 <div className="cart-summary-1">
                     <h2 className="baslik">ORDER SUMMARY</h2>
                     <p>
-                        <strong>Subtotal:</strong> ${calculateSubtotal().toFixed(2)}
+                        <strong>Subtotal:</strong> €{calculateSubtotal().toFixed(2)}
                     </p>
                     <p>
-                        <strong>Discount:</strong> $0
+                        <strong>Discount:</strong> €0
                     </p>
                     <p>
-                        <strong>Delivery Fee:</strong> $0
+                        <strong>Delivery Fee:</strong> €0
                     </p>
                     <h3>
-                        <strong>Total:</strong> ${calculateSubtotal().toFixed(2)}
+                        <strong>Total:</strong> €{calculateSubtotal().toFixed(2)}
                     </h3>
                     <button className="checkout-button">Go to Checkout →</button>
                 </div>

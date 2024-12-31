@@ -4,7 +4,7 @@ const PrivacyAndPolicy = () => {
     return (
         <div className="text-area">
             <h1 className="main-heading">Privacy Policy</h1>
-            <div className="content">
+            <div className="altbaslik">
                 <h2 className="sub-heading">We are committed to safeguarding the privacy of our website visitors. This policy outlines how we will treat your personal information.</h2>
 
                 <h3>(1) What Information Do We Collect?</h3>

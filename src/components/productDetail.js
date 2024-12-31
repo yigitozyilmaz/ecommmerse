@@ -47,7 +47,7 @@ const ProductDetail = ({ product, onBack }) => {
                 <div className="product-info">
                     <h1 className="product-title">{product.title}</h1>
                     <p className="product-description">{product.long_desc}</p>
-                    <h2 className="product-price">${product.price}</h2>
+                    <h2 className="product-price">€{product.price}</h2>
                     <div className="product-actions">
                         <div className="quantity-controls">
                             <button className="quantity-button" onClick={handleDecrement}>

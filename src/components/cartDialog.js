@@ -29,7 +29,7 @@ const CartDialog = ({ isOpen, onClose }) => {
                   {item.name} X {item.count}
                 </p>
 
-                <p>{item.price * item.count} $</p>
+                <p>{item.price * item.count} €</p>
                 <button
                   class="button-78"
                   role="button"
@@ -39,7 +39,7 @@ const CartDialog = ({ isOpen, onClose }) => {
                 </button>
               </div>
             ))}
-            <p>Total: {sum}$</p>
+            <p>Total: {sum}€</p>
           </ul>
         )}
         <button onClick={onClose} class="button-78" role="button">
