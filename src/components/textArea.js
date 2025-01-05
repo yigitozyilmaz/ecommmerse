@@ -6,7 +6,7 @@ const TextArea = () => {
 
     return (
         <div className="textAlani">
-            <img src="/slider.svg" alt="KEKO" className="keko-logo" />
+            <img src="/header.jpg" alt="KEKO" className="keko-logo" />
         </div>
     );
 };
