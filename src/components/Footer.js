@@ -18,7 +18,7 @@ const Footer = ({ setCurrentView }) => {
                 <div className="footer-section">
                     <h4>Customer Care</h4>
                     <p onClick={() => setCurrentView("about")} className="clickable">About Us</p>
-                    <p onClick={() => setCurrentView("contact")} className="clickable">Contact Us</p>
+
                 </div>
 
                 <div className="footer-section">
@@ -31,7 +31,7 @@ const Footer = ({ setCurrentView }) => {
 
                 <div className="footer-section">
                     <h4>Contact Us</h4>
-                    <p>District of Nadezhda, bl. 31, entry B, fl. 6, Sofia, Bulgaria</p>
+                    <p>contact@kekostationary.com</p>
                 </div>
             </div>
 

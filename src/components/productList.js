@@ -76,6 +76,8 @@ const ProductList = () => {
         setInputValue={setInputValue}
         setOpen={handleCartOpen} // Trigger cart opening
         onBack={handleBackToList}
+        showSearchBar={!!selectedCategory}
+        onCategorySelect={(category) => setSelectedCategory(category)}
       />
       <div className="ikili">
         {selectedProduct === null && !isCartOpen && currentView === "products" && <TextArea />}
