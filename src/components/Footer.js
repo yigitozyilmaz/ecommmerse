@@ -31,7 +31,8 @@ const Footer = ({ setCurrentView }) => {
 
                 <div className="footer-section">
                     <h4>Contact Us</h4>
-                    <p>contact@kekostationary.com</p>
+                    <p>District of Nadezhda, bl. 31, entry B, fl. 6, Sofia, Bulgaria</p>
+                    <p> contact@kekostationary.com</p>
                 </div>
             </div>
 
